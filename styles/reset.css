@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Raleway:wght@300&display=swap');
+/* font-family: 'Raleway'
+font-family: 'Jost', sans-serif; */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all .3s ease;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    outline: none;
+}
+
+a:hover,
+button:hover {
+    opacity: 0.85;
+}
